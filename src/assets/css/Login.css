@@ -1,0 +1,113 @@
+.loginForm{
+
+    color:black;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    min-height: 100vh;
+}
+.loginForm h1{
+    clear: both;
+    font-weight: 1000;
+    padding-bottom: 40px;
+}
+.loginForm input{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+
+ }
+.main-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+
+}
+.formItems{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 65%;
+    position: relative;
+    /* left: 25%; */
+    /* margin: 0 auto; */
+    margin: 20px;
+}
+.loginLogo{
+    float: left;
+    display: inline;
+}
+.loginBtn {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-weight: 500;
+  box-shadow: 1px 4px 10px grey;
+  padding: 10px;
+  /* box-shadow: 2px 2px 10px black; */
+  width: 90%;
+  border-radius: 30px;
+  background-color: lightgray;
+  color: black;
+  border: none;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 25px;
+}
+  .loginForm button:hover{
+    background-color: #502ACC;
+    color: white;
+    border: none;
+  }
+  .otherItems{
+position: relative;
+top:50px
+  }
+  .loginForm img{
+    width: 160px;
+    margin: 20px;
+  }
+  .imageSec{
+    width: 50%;
+  }
+  .imageSec img{
+    width: 100%;
+    min-height: 100vh;
+    
+  }
+  .forgot{
+    margin-top: 40px;
+    color: black;
+    margin: 20px;
+  }
+
+  .loginForm a{
+    color: #502ACC;
+  }
+  .terms{
+   position: relative;
+    font-size: 14px;
+    top: 70px;
+    color: grey;
+  }
+  @media(max-width:790px){
+
+    .imageSec{
+      display: none;
+    }
+    .loginForm{
+      width: 100%;
+    }
+  }
+  @media(max-width:990px){
+    .loginForm{
+      width: 100%;
+    }
+    .imageSec{
+      display: none;
+    }
+  }

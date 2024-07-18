@@ -1,0 +1,126 @@
+.forgotPage{
+
+    color:black;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    min-height: 100vh;
+}
+.forgotPage h1{
+    clear: both;
+    font-weight: 1000;
+}
+.forgotPage input{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: aliceblue;
+
+ }
+.main-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.loginLogo{
+    float: left;
+    display: inline;
+}
+.forgotPage button{
+
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-weight: 500;
+    box-shadow: 2px 5px 15px  grey;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+    width: 90%;
+    border-radius: 30px;
+    background-color: #c8bced;;
+    color: white;
+    width: 30%;
+    border: none;
+    margin-top: 25px;
+  
+  }
+  .forgotPage button:hover{
+    background-color: #502ACC;
+    color: white;
+    border: none;
+  }
+  .otherItems{
+position: relative;
+top:50px
+  }
+  .forgotPage img{
+    width: 160px;
+    margin: 20px;
+  }
+  .imageSec{
+    width: 50%;
+  }
+  .imageSec img{
+    width: 100%;
+    min-height: 100vh;
+    
+  }
+  .forgot{
+    margin-top: 40px;
+    color: black;
+    margin: 20px;
+  }
+
+  .loginForm a{
+    color: #502ACC;
+  }
+  .forgotTerms{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: grey;
+
+  }
+  .forgotTerms p{
+    width: 28%;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .resetBtn{
+    width: 200px;
+  }
+  .others{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginBackBtn{
+    width: 200px !important;
+    background-color: white !important;
+    box-shadow: none !important;
+    color: #502ACC !important
+    ;
+
+  }
+  .loginBackBtn:hover{
+    background-color: rgb(245, 241, 241) !important;
+  }
+  .here{
+    color:#502ACC;
+    text-decoration: none;
+    margin-left: -10px;
+  }
+  .loginBackBtn a{
+    text-decoration: none;
+    color: #502ACC;
+  }

@@ -1,0 +1,188 @@
+.wireo-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-sec{
+    width: 80% !important;
+  }
+  .wireo-grid button{
+   
+    text-align: left;
+    background-color:white !important;
+    border: none;
+    box-shadow: none;
+    color: black;
+    width: 98% !important;
+    font-size:18px ;
+    margin: 0px 0px!important;
+  }
+  .wireo-grid button:hover{
+    background-color: whitesmoke!important;
+    color: #502ACC !important;
+    border-radius: 15px;
+    width: 180px;
+    
+
+  }
+  .wireo-loading {
+    background-color: lightgrey;
+    width: 75%;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 76px;
+}
+  .wireo-grid i{
+    width: 20%;
+    color: lightgray;
+    padding: 0px;
+    font-size: 30px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: space-between; */
+  }
+
+ 
+  .wireo-grid a {
+    /* width: 100%; */
+    padding: 12px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    top: -10px;
+
+}
+
+  .wireo-row{
+    /* padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center; */
+    background-color: white;
+  }
+  .menu-btn button{
+    margin: 34px;
+    /* margin-left: 225px; */
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: none;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+   margin-top: 0px;
+   padding: 15px;
+  }
+  .menu-btn{
+    margin-top: 40px;
+  }
+  .menu-btn button:hover{
+    background-color: #502ACC;
+    color: white;
+  }
+  .menu-sec{
+    width: 80% !important;
+  }
+  @media(max-width:790px){
+ 
+    .middle-content {
+      display: flex;
+      flex-direction: column;
+  
+      /* margin-top: -90px; */
+  }
+  .field {
+    margin: 20px;
+    margin-top: 90px;
+    width: 100%;
+    position: relative;
+    right: 20px;
+
+  }
+  .time-periods .time {
+    border: 2px lightgray solid;
+    margin: 10px;
+    list-style: none;
+    /* width: 25%; */
+    width: 96%;
+    text-align: center;
+    border-radius: 12px;
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+  }
+  .input-btn {
+    /* margin-left: 100px; */
+    /* float: right; */
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar{
+    display: none;
+  }
+  .resume-mini{
+    display: none;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px;
+    padding:20px ;
+  }
+
+  .menu-btn{
+    width: 100%;
+  }
+  .menu-btn button{
+    margin: 34px;
+    /* margin-left: 225px; */
+    width: 37%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: none;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+
+  }
+  .menu-btn button:hover{
+    background-color: #502ACC;
+    color: white;
+  }
+  .menu-sec{
+    width: 100% !important;
+  }
+}
+
+element.style {
+}
+@media(max-width:550px){
+.menu-sec {
+    width: 100% !important;
+    padding: 95px;
+    /* display: flex; */
+    height: 550px;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: -45px;
+}
+}

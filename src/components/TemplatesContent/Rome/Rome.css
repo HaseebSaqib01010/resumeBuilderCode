@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'CustomFont'; /* Choose a name for your font */
+    src: url("../../../fonts/Arsenal/Arsenal-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'CustomFont';
+    font-family: initial;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    font-family: 'CustomFont';
+    text-align: left;
+    width: 70%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: solid lightgrey 1px;
+    padding: 15px;
+    margin: auto;
+}
+
+.topHead {
+    font-size: 48px;
+    font-family: initial;
+}
+
+.romeImg {
+    width: 200px;
+    margin-right: 25px;
+}
+
+.infoWrapper {
+    font-size: 22px;
+    font-family: initial;
+}
+
+.resumeContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin: 0;
+    font-family: 'CustomFont';
+}
+
+.uploadSec img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.uploadSec i {
+    color: #8ba9d0;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.personalDetails {
+    display: flex;
+    gap: 0px;
+    justify-content: baseline;
+}
+
+.personalDetails .personalDetailsWrapper {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+
+    font-family: inherit;
+}
+
+.personalDetailsInnerWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.personalDetailsInnerWrapper h3 {
+    font-weight: 100;
+}
+
+.contactWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleWrapper {
+    font-family: initial;
+    font-size: 38px;
+}
+
+.infoWrapper {
+    /* justify-content: space-evenly;  */
+    display: flex;
+    gap: 270px;
+    font-size: 22px;
+    font-family: inherit;
+}
+.infoWrapper p{
+    font-family: initial;
+ }
+.profileSection {
+    position: relative;
+    top: 0;
+    width: 80%;
+    padding: 0;
+}
+
+.profileTitle {
+    font-size: 44px;
+    font-weight: 100;
+    font-family: initial;
+}
+
+.profileText {
+    font-size: 22px;
+    font-weight: 300;
+    font-family: initial;
+    text-align: justify;
+}
+
+.language {
+    width: 50%;
+}
+
+.language h1 {
+    font-size: 44px;
+    font-weight: 100;
+}
+
+.language ul {
+    list-style: none;
+    position: relative;
+    left: -30px;
+    top: -20px;
+}
+
+.langSpan {
+    font-size: 38px;
+    margin-left: 205px;
+    position: relative;
+    right: -100px;
+}
+
+.employment {
+    width: 100%;
+}
+
+.employment h1 {
+    font-size: 44px;
+    font-weight: 100;
+}
+
+.expTitle {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+.skills-section {
+    display: flex;
+    
+    justify-content:space-between ;
+}
+
+.skills-title {
+    font-size: 44px;
+    font-weight: 100;
+    font-family: initial;
+}
+
+.skills-list {
+    display: flex;
+}
+
+.skills-list-item {
+    list-style: none;
+    position: relative;
+    left: -30px;
+    top: -30px;
+}
+
+.skills-item-text {
+    font-size: 38px;
+    margin-left: 80px;
+}
+
+.languages-section {
+    display: flex;
+}
+
+.languages-title {
+    font-size: 44px;
+    margin-right: 120px;
+    font-weight: 100;
+    font-family: initial;
+}
+
+.languages-list {
+    list-style: none;
+}
+
+.languages-list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-name {
+    font-size: 38px;
+}
+
+.language-rating {
+    font-size: 38px;
+    margin-left: 80px;
+}

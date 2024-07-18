@@ -1,0 +1,175 @@
+.navbar{
+    background-color:#502ACC;
+    height: 190px;
+    color: white;
+}
+.navbarContainer{
+    position: relative;
+    top: -18px;
+    color: aqua;
+}
+.navbarItems{
+    float: right;
+    justify-content: end;
+    color: aliceblue;
+}
+.profileImg{
+    border-radius: 50%;
+    width: 60px;
+}
+.logout{
+  
+  position: relative;
+  top: -20px;
+  right: -18px;
+  padding: 5px;
+  color: white;
+  padding-top: 20px;
+}
+.item{
+color: aqua;
+}
+.DropdownButton-title{
+    color: white;
+}
+.navbar-items a,
+.navbar-items .nav-link,
+.navbar-items .nav-dropdown-title {
+  color: white;
+  font-size: 25px;
+}
+
+.nav-dropdown-item {
+  color: black;
+
+}
+.language
+{
+    position: inherit;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: relative;
+  top: 45px;
+  width: 100%;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  width: 163px;
+}
+nav{
+  background-color: beige;
+}
+.bg-body-tertiary{
+background-color:#502ACC;  
+}
+.back{
+  background-color:#2a2929;
+  border: none;
+  font-size: 24px;
+  padding: 12px;
+  color: white;
+}
+.back:hover{
+  background-color:grey;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 24px;
+  color: white;
+}
+.colors{
+  display: flex;
+  margin-left: 25px;
+}
+.colors button{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 105%;
+  margin-left: 10px;
+  border: none;
+  margin-top: 10px;
+}
+.colors .red{
+  background-color: red;
+}
+.colors .green{
+  background-color: lightgreen;
+}
+.colors .purple{
+  background-color: purple;
+}
+.colors .yellow{
+  background-color: yellow;
+}
+.colors .black{
+  background-color: black;
+}
+.lineSpacing{
+  display: flex;
+  border-right: 3px solid white;
+  height: 40px;
+  margin: 10px;
+  margin-right:0px;
+  margin-top: 15px;
+}
+.lineSpacing button{
+  background-color:#2a2929;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-right: 15px;
+}
+.lineSpacing button:hover{
+  background-color:grey;
+  border-radius: 30px;
+  border-radius: 100%;
+  padding: 10px;
+  color: white;
+}
+.lineSpacing span{
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.NavCenter{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.NavSettings{
+background-color: #a992fa;
+border-radius: 10px;
+}
+.customNav{
+  flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 150px;
+    background-color: #2a2929;
+    padding: 0px;
+    padding-top: 0px;
+    align-items: center;
+}
+.download{
+  background-color: dodgerblue;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+a.download.nav-link {
+  background-color: dodgerblue;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+a.download.nav-link:hover {
+  background-color: rgb(51, 118, 186);
+
+}

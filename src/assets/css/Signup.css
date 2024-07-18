@@ -1,0 +1,199 @@
+
+.signForm{
+  
+   
+    color:black;
+    width: 70%;
+    text-align: center;
+    background-color:white !important;
+}
+.subHeading{
+    position: relative;
+    /* top: -45px; */
+    color: gray;
+    text-align: center;
+}
+.signupForm h1{
+    clear: both;
+    position: relative;
+    text-align: center;
+    font-weight: 1000;
+    padding-bottom: 0px;
+}
+.signupForm input{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 10px;
+
+ }
+.main-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* min-height: 100vh; */
+
+}
+.formItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    width: 65%;
+    position: relative;
+    /* top: -50px; */
+    /* left: 25%; */
+    margin: 0 auto;
+}
+.loginLogo{
+    float: left;
+    display: inline;
+}
+.signupForm button {
+  margin-top: 40px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-weight: 500;
+  box-shadow: 1px 2px 4px grey;
+  padding: 10px;
+  margin-left: 30px;
+  /* box-shadow: 2px 2px 10px black; */
+  margin-top: 0px;
+  width: 90%;
+  border-radius: 30px;
+  background-color: #c8bced;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  /* top: 10px; */
+  margin-top: 20px;
+}
+  
+  
+  .signupForm button:hover{
+    background-color:  #502ACC;;
+    color: white;
+    border: none;
+  }
+  .alreadyAccount p{
+   margin: 0px;
+   padding: 0px;
+   margin-top: 25px;
+   color: grey;
+   font-size: 14px;
+   text-align: center;
+  }
+  .alreadyAccount a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .alreadyAccount .lastP{
+    margin-bottom: 30px !important;
+    font-size: 12px !important;
+   
+  }
+  .alreadyAccount .lastP a{
+    text-decoration: none;
+  }
+  .otherItems{
+    position: relative;
+    /* top: -10%; */
+  }
+  .signupForm img{
+    width: 160px;
+    margin: 20px;
+  }
+  .imageSec{
+    width: 40% !important;
+  }
+  .imageSec img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .forgot{
+    margin-top: 40px;
+    color: black;
+    margin: 20px;
+  }
+
+  .signupForm a{
+    color: #502ACC;
+  }
+  .signupTerms a{
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+  .signupTerms{
+    padding: 15px 0px;
+    font-size: 14px;
+    text-align: justify;
+    color: gray;
+    padding-top: 20px;
+    margin: 12;
+    padding: 15px;
+    margin: 0px ;
+
+  }
+  .or{
+    color: grey;
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  .signupOtherBtn{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+  }
+  .signupOtherBtn button{
+    background-color: white;
+    color:black;
+    margin: 5px;
+    width: 60%;
+
+
+    
+  }
+  .otherBtn button:hover{
+    background-color: lightgray;
+    color:black;
+    margin: 10px;
+    width: 60%;
+    
+  }
+  .alreadyLogin{
+    position: relative;
+    /* top: 120px; */
+    color: grey;
+    
+  }
+  .lastTerms{
+    position: relative;
+    /* top: 120px; */
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 20px;
+  }
+  @media(max-width:790px){
+
+    .imageSec{
+      display: none;
+    }
+  }
+  @media(max-width:990px){
+
+    .imageSec{
+      display: none;
+    }
+  }

@@ -1,0 +1,31 @@
+.changeTemplate{
+    display: flex;
+    width: 100%;
+}
+.templateMenu{
+    display: flex;
+    /* width: 25%; */
+    flex-wrap: wrap;
+    background-color: #e7e7e9;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto; 
+    height: 100vh; 
+    background-color: #787897;
+    justify-content: center;
+    align-items: center;
+
+}
+.templateMenu h5{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+}
+.templateContent{
+    width: 70%;
+    height: 100vh;
+    margin: 20px auto;
+    overflow-y: auto; 
+   
+}

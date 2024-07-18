@@ -1,0 +1,148 @@
+.mainContentStyle{
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    
+        
+}
+.amsterdam-container {
+    max-width: 100%; /* Adjust this to a suitable width */
+    /* Add any other necessary styles for your content */
+  }
+.amsterdam-container {
+    overflow-x: hidden;
+  }
+  .containerStyle {
+    font-size: myFirstFont;
+    /* display: flex; */
+    flex-direction: column;
+    /* margin-top: 15px; */
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    /* margin-left: 20px; */
+    /* margin-bottom: 20px; */
+    width: 75%;
+    
+}
+
+.outlineStyle{
+    border:  1px solid lightgray ;
+    width:  70% ;
+    border-radius:  20px ,
+  };
+
+
+
+.rightContentStyle {
+    padding:  10px ;
+    width:  60% ;
+    border-left:  1px solid lightgray ;
+    padding:  50px ;
+    background-color:  #EEEEEE ;
+    color:  black ;
+    padding-top:  260px ,
+  }
+  .outlineStyle {
+    border: 1px solid lightgray;
+    width: 96%; /* Use a percentage for responsiveness */
+    border-radius: 20px;
+  }
+  
+  .rightContentStyle {
+    padding: 2%;
+    width: 79.5%;
+    border-left: 1px solid lightgray;
+    padding-top: 2%;
+    background-color: #EEEEEE;
+    color: black;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.titleStyle{
+    font-size:  22px ;
+    position:  relative ;
+    top:  10px ;
+    font-weight:  100 ;
+  };
+
+.hrStyle{
+    padding:  2px ;
+    background-color:  black ;
+    position:  relative ;
+    top:  -6px ,
+  }
+
+.paragraphStyle {
+    font-size:  22px ;
+    width:  70% ,
+  }
+  .profileContainerStyle{
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: solid 1px;
+    width: 70%;
+    position: relative;
+    left: -120px;
+    background-color: white;
+    top: 35px;
+}
+.central-content {
+    margin: 7.5% 2% 2% 2%; /* Use percentage-based margins for responsiveness */
+    text-align: justify;
+  }
+  .leftContentStyle {
+    /* Remove absolute values and fixed widths */
+    padding: 2%; /* Use a percentage for responsiveness */
+    padding-top: 24.5%; /* Adjust as needed */
+    padding-left: 2%; /* Adjust as needed */
+    border-radius: 15px 0 0px 15px;
+    padding-right: 2%; /* Adjust as needed */
+    background-color: antiquewhite;
+    width: 30%;
+  }
+  .profileContainerStyle {
+    border:  3px solid black ;
+    left: -50px;
+    background-color:  white ;
+    height:  160px ;
+    position:  relative ;
+    right:  200px ;
+    top:  60px ;
+    text-align:  center ;
+    align-items:  center ;
+    width: 70%;
+    justify-content:  center ;
+    display:  flex ;
+    flex-Direction:  column ;
+  }
+
+.profileTitleStyle  {
+    font-Size:  1.5rem ;
+  }
+
+.profileSubtitleStyle {
+    font-size: 1rem;
+    font-weight:  100 ;
+  };
+  .leftContentStyle h1{
+    font-size: 18px;
+  }
+  @media (max-width: 500px) {
+    .containerStyle {
+      margin-left: 0; /* Adjust margin as needed */
+    }
+  
+    .outlineStyle {
+        border: 1px solid lightgray;
+        width: 96%; /* Use a percentage for responsiveness */
+        border-radius: 20px;
+      }
+    .rightContentStyle {
+      width: 100%; /* Adjust as needed for smaller screens */
+      padding: 5%; /* Adjust padding as needed for smaller screens */
+    }
+  
+    /* Add additional responsive styles as needed */
+  }
